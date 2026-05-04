@@ -3,15 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Путь Саши — Bento</title>
+  <title>Саша — блок 0–7</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Caveat:wght@600;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@600;700;800&family=Wix+Madefor+Text:wght@400;500;600;700;800&family=Caveat:wght@600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-
-  <!-- ── Gradient mesh background ── -->
   <div class="mesh-bg">
     <div class="mesh-orb mo1"></div>
     <div class="mesh-orb mo2"></div>
@@ -19,8 +17,7 @@
     <div class="mesh-orb mo4"></div>
   </div>
   <div class="grain-overlay"></div>
-
-  <div class="stars" id="stars"></div>
+  <canvas class="stars" id="stars"></canvas>
   <div class="comet"></div>
 
   <div class="demo-shell">
@@ -29,7 +26,7 @@
         <div class="brand-mark">AI</div>
         <div>
           <div class="brand-title">Путь Саши</div>
-          <div class="brand-subtitle">личный кабинет</div>
+          <div class="brand-subtitle">блок 0–7</div>
         </div>
       </div>
 
@@ -39,18 +36,16 @@
         </div>
         <div>
           <div class="student-name">Саша</div>
-          <div class="student-meta">10 класс · регион</div>
+          <div class="student-meta">Саше 17 лет · 11 класс · регион</div>
         </div>
       </div>
 
-      <nav class="act-nav" id="actNav" aria-label="Акты пути Саши"></nav>
+      <nav class="act-nav" id="actNav" aria-label="Блоки"></nav>
 
-      <div class="mentor-card">
-        <img src="./assets/ari-primary.png" alt="Ари">
-        <div>
-          <div class="mentor-name">Ари</div>
-          <div class="mentor-meta">AI-наставник</div>
-        </div>
+      <div class="block-card">
+        <div class="block-card-kicker">Фокус демо</div>
+        <div class="block-card-title">Обычная платформа</div>
+        <div class="block-card-copy">Контент есть. Аналитика есть. Маршрута к поступлению нет.</div>
       </div>
     </aside>
 
@@ -60,10 +55,8 @@
 
       <section class="product-frame">
         <div class="browser-bar">
-          <div class="window-dots">
-            <span></span><span></span><span></span>
-          </div>
-          <div class="address">cabinet.ai-admission/sasha</div>
+          <div class="window-dots"><span></span><span></span><span></span></div>
+          <div class="address">ordinary-platform/sasha</div>
           <div class="sync-status" id="syncStatus"></div>
         </div>
         <div class="screen" id="screen"></div>
